@@ -1,0 +1,66 @@
+INFO:root:Received: HELO, Sent: PASS
+INFO:root:Received: PASS user1 pass1, Sent: 
+INFO:root:Received: HELO user1, Sent: PASS pass1
+INFO:root:Received: HELO user1, Sent: PASS user1 pass1
+INFO:root:Received: HELO, Sent: PASS user1 pass1
+INFO:root:Received: HELO, Sent: PASS user1 pass1
+INFO:root:Received: HELO user1, Sent: PASS pass1
+INFO:root:Received: HELO user1, Sent: PASS pass1
+INFO:root:Received: PASS pass1
+INFO:root:Sent: 401 ERROR!
+INFO:root:Received: HELO user1
+INFO:root:Sent: 500 AUTH REQUIRE
+INFO:root:Received: PASS pass1
+INFO:root:Sent: 525 OK!
+INFO:root:Received: BALA
+INFO:root:Sent: AMNT:1000
+INFO:root:Received: WODA 200
+INFO:root:Sent: AMNT:1000
+INFO:root:Received: HELO user1
+INFO:root:Sent: 500 AUTH REQUIRE
+INFO:root:Received: PASS pass1
+INFO:root:Sent: 525 OK!
+INFO:root:Received: BALA
+INFO:root:Sent: AMNT:1000
+INFO:root:Received: WDRA 100
+INFO:root:Sent: 525 OK!
+INFO:root:Received: BYE
+INFO:root:Received: HELO user1
+INFO:root:Sent: 500 AUTH REQUIRE
+INFO:root:Received: PASS pass1
+INFO:root:Sent: 525 OK!
+INFO:root:Received: BALA
+INFO:root:Sent: AMNT:900
+INFO:root:Received: WDRA 100
+INFO:root:Sent: 525 OK!
+INFO:root:Received: BYE
+INFO:root:Received: HELO user1
+INFO:root:Sent: 500 AUTH REQUIRE
+INFO:root:Received: PASS pass1
+INFO:root:Sent: 525 OK!
+INFO:root:Received: BALA
+INFO:root:Sent: AMNT:800
+INFO:root:Received: WDRA 200
+INFO:root:Sent: 525 OK!
+INFO:root:Received: WDRA 800
+INFO:root:Sent: 401 ERROR!
+INFO:root:Received: BYE
+INFO:root:Received: HELO user1
+INFO:root:Sent: 500 AUTH REQUIRE
+INFO:root:Received: PASS pass1
+INFO:root:Sent: 525 OK!
+INFO:root:Received: HELO user1
+INFO:root:Sent: 500 AUTH REQUIRE
+INFO:root:Received: HELO user1
+INFO:root:Sent: 500 AUTH REQUIRE
+INFO:root:Received: PASS pass1
+INFO:root:Sent: 525 OK!
+INFO:root:Received: BALA
+INFO:root:Sent: AMNT:600
+INFO:root:Received: WDRA 100
+INFO:root:Sent: 525 OK!
+INFO:root:Received: BYE
+INFO:root:Received: HELO user1
+INFO:root:Sent: 500 AUTH REQUIRE
+INFO:root:Received: PASS 1
+INFO:root:Sent: 401 ERROR!
